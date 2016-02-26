@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "WebOauthClient",
+    "packageName": "com.github.zeckson",
+    "packageFolder": "com/github/zeckson",
+    "authenticationType": "oauth2",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "cassandra",
+    "devDatabaseType": "cassandra",
+    "prodDatabaseType": "cassandra",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "gradle",
+    "frontendBuilder": "gulp",
+    "enableTranslation": false,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "073b1b114bb71b7c2cdf58f7f7d3129c697f240c",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
